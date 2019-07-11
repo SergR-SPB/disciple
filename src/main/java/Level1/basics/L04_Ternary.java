@@ -16,10 +16,10 @@ public class L04_Ternary {
 
     public static void main(String[] args) {
 
-        /* int a=1, b=2, max = 0;
+        /* int a=1, b=2, max1 = 0;
 
-        max = (a>b)?a:b;
-        System.out.println(max); */
+        max1 = (a>b)?a:b;
+        System.out.println(max1); */
 //--1
         int a, b, max;
         Scanner scanner = new Scanner(System.in);
@@ -29,7 +29,26 @@ public class L04_Ternary {
         b = scanner.nextInt();
         max = (a < b) ? b : a;
         System.out.println("MAX [a,b] = " + max);
+
 //--2
+        int a1 = 1;
+        double b1 = 0.0;
+        int max1;
+
+        // Выражения [?] и [:]  - должны быть одного типа.
+
+        max1 = (int)((a1 > b1) ? a1 : b1);
+
+        // ... или так
+
+        max1 = (a1 > b1) ? a1 : (int)b1;
+
+        System.out.println(max1);
+
+
+
+
+//--3
         String string = "Hello ";
 
         System.out.println("Введите свой логин:");
