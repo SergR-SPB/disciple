@@ -8,23 +8,26 @@ public class L04_Authentification_if_else {
         String login1 = "User";
         String password = "passwordAd";
         String password1 ="passwordUs";
-        String string = "Hello";
+        String string = "Hello ";
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input LOGIN:");
 
         String usersLogin = scanner.next();
 // -- Ternary (--if--elce)
-        string+= usersLogin.equals("Admin")?" Admin":" User";
+        string+= usersLogin.equals(login)?login:login1;
         System.out.println(string);
 
         System.out.println("Input password:");
         String userPassword = scanner.next();
-        String st = userPassword.equals("passwordAd") | userPassword.equals("passwordUs")
-                & usersLogin.equals("Admin") | usersLogin.equals("User")
+        String st = userPassword.equals(password) | userPassword.equals(password1)
+                & usersLogin.equals(login) | usersLogin.equals(login1)
                 ?"Great, you are logged in."
                 :"You are not logged in!!";
         System.out.println(st);
+
+        System.out.println
+                ("-----------------**---------------------");
 
 // --if--else
 
