@@ -11,14 +11,14 @@ public class L04_Authentification_if_else {
         String string = "Hello";
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("In put LOGIN:");
+        System.out.println("Input LOGIN:");
 
         String usersLogin = scanner.next();
 // -- Ternary (--if--elce)
         string+= usersLogin.equals("Admin")?" Admin":" User";
         System.out.println(string);
 
-        System.out.println("In put password:");
+        System.out.println("Input password:");
         String userPassword = scanner.next();
         String st = userPassword.equals("passwordAd") | userPassword.equals("passwordUs")
                 & usersLogin.equals("Admin") | usersLogin.equals("User")
@@ -29,7 +29,7 @@ public class L04_Authentification_if_else {
 // --if--else
 
         if (login.equals(usersLogin)){
-            System.out.println("In put PASSWORD:");
+            System.out.println("Input PASSWORD:");
             String usersPassword = scanner.next();
 
             if (password.equals(usersPassword)){
