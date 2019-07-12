@@ -9,10 +9,10 @@ public class L04_Ternary_Sale {
 
     public static void main(String[] args) {
 
-//        double quantity = 9;     // Количество единиц товара.
-//        double price = 100;      // Цена за единицу товара.
-//        double discount = 0.75;  // Скидка на общую стоимость - 25%.
-//        double cost;             // Общая стоимость.
+//        double quantity = 9;      // Количество единиц товара.
+//        double price = 100;       // Цена за единицу товара.
+//        double discount = 0.75;   // Скидка на общую стоимость - 25%.
+//        double cost;              // Общая стоимость.
 
         double quantity, price, discount = 0.75, cost, sale;
         String txtSale = "Sale: ";
