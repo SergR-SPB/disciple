@@ -1,4 +1,4 @@
-package Level1.basics;
+package Level1.basics.L_04Conditions;
 
 public class L01_BazicTupes {
     public static void main(String[] args) {

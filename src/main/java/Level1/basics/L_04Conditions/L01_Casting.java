@@ -1,4 +1,4 @@
-package Level1.basics;
+package Level1.basics.L_04Conditions;
 
 public class L01_Casting {
     public static void main(String[] args) {
