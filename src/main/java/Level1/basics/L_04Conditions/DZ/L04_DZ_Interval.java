@@ -1,4 +1,4 @@
-package Level1.basics.L_04Conditions;
+package Level1.basics.L_04Conditions.DZ;
 
 import java.util.Scanner;
 

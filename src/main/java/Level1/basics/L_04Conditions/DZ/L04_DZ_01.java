@@ -1,4 +1,4 @@
-package Level1.basics.L_04Conditions;
+package Level1.basics.L_04Conditions.DZ;
 
 /*
 Напишите программу русско-английский переводчик.
